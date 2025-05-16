@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Digital Marketing Specialist</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #ffffff;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .main-container {
+      width: 1280px;
+      height: 832px;
+      background-color: #000;
+    }
+
+    .header {
+      width: 1280px;
+      height: 366px;
+      flex-shrink: 0;
+      background-image: url('image.jpg');
+      align-items: center;
+      text-align: center;
+    }
+
+    .header img.profile {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      object-fit: cover;
+      margin-top: 70px;
+    }
+
+    .header h1 {
+      margin-top: 20px;
+      font-size: 28px;
+    }
+
+    .header p {
+      color: #ccc;
+      color: #979797;
+      text-align: center;
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: 30px;
+    }
+
+    .specialty {
+      text-align: center;
+      margin-top: 23px;
+    }
+
+    .specialty h2 {
+      font-size: 10px;
+      color: #918989;
+      margin-bottom: 5px;
+      margin-top: 35px;
+    }
+
+    .specialty .highlight {
+      color: #018dff;
+      font-weight: 600;
+      font-size: 20px;
+      margin-top: 6px;
+    }
+
+    .specialty p {
+      color: #aaa;
+      max-width: 600px;
+      margin: 10px auto 40px;
+      font-size: 14px;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 0 20px 60px;
+    }
+
+    .card-container{
+      margin-left: 110px;
+      width: 60px;
+      height: 60px;
+      flex-shrink: 0;
+      border-radius: 50%;
+      background-color: #ffffff;
+    }
+
+    .card {
+      background-color: #1a1a1a;
+      padding: 30px;
+      border-radius: 12px;
+      width: 280px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      margin: 0 20px;
+    }
+
+    .card hr {
+      width: 89px;
+      border: none;
+      border-top: 3px solid #018dff;
+      border-radius: 20%;
+      margin-top: 20px;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(58, 123, 253, 0.4);
+    }
+  
+    .card-icon {
+      font-size: 32px;
+      margin-bottom: 10px;
+      color: #0059ff;
+      margin-top: 10px;
+    }
+
+    .card h3 {
+      font-size: 16px;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 13px;
+      color: #aaa;
+      line-height: 1.5;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="main-container">
+    <div class="header">
+      <img src="foto.jpg" alt="Profile Photo" class="profile">
+      <h1>M. Andy Yusa</h1>
+      <p>Digital Marketing Specialist<br>Making brands matter in the digital world</p>
+    </div>
+
+    <div class="specialty">
+      <h2>SPECIALITY</h2>
+      <div class="highlight">My specialties</div>
+      <p>
+        Helping brands grow by combining data-driven strategies, creative storytelling, and the latest digital tools to reach the right audience effectively.
+      </p>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-container">
+          <img src="Frame.svg" alt="P" class="card-icon">
+        </div>
+        <h3>Digital Strategy</h3>
+        <hr>
+        <p>Crafting comprehensive marketing plans using analytics and trends to guide brand direction.</p>
+      </div>
+      <div class="card">
+       <div class="card-container">
+          <img src="Frame1.svg" alt="Content Marketing" class="card-icon">
+        </div>
+        <h3>Content Marketing</h3>
+        <hr>
+        <p>Creating engaging, targeted content that builds brand authority, nurtures leads, and drives conversions.</p>
+      </div>
+      <div class="card">
+        <div class="card-container">
+          <img src="Frame2.svg" alt="Performance Ads" class="card-icon">
+        </div>
+        <h3>Performance Ads</h3>
+        <hr>
+        <p>Running paid campaigns on Google, Meta and TikTok focused on ROI and optimization.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
